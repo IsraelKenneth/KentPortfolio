@@ -9,15 +9,15 @@ const MenuItems = [
     },
 
     {
-        title: "About",
-        url: "/about",
+        title: "Portfolio",
+        url: "/portfolio",
         cName: "nav-links",
         icon: "fa-solid fa-circle-info"
     },
 
     {
-        title: "Service",
-        url: "/service",
+        title: "Services",
+        url: "/services",
         cName: "nav-links",
         icon: "fa-solid fa-briefcase"
     },

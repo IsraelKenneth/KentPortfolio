@@ -1,18 +1,19 @@
 import React from 'react'
 import Destination from '../components/Destination'
-import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Trip from '../components/Trip'
+import Homeimg from "../assets/43.jpg"
 
 const Home = () => {
     return (
         <div>
             <Hero
                 cName="hero"
-                heroImg="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                title="Your Journey Your Story"
-                text="Choose Your Favourite Destination"
-                btnText="Travel Plan"
+                heroImg={Homeimg}
+                title="Freelance Designer"
+                text="I work with businesses and agencies to translate their ideas into designs."
+                text1="A productive freelance partnership and excellent designs."
+                btnText="Contact Me"
                 url="/"
                 btnClass="show"
             />
@@ -22,9 +23,7 @@ const Home = () => {
             <Trip
 
             />
-            {/* <Footer
 
-            /> */}
         </div>
     )
 }

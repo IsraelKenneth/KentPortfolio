@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=League+Spartan&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: relative;
 }
 
@@ -25,29 +26,56 @@ img {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
     width: 100%;
 
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    position: absolute;
+        font-size: 4.6rem;
     font-weight: 800;
-    background: #fff;
+    background: rgb(28, 28, 28);
+        top: -10rem;
+        left: 69%;
+        padding: 0.5rem 0 2rem 2rem;
+        margin-right: 1rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.hero-text .text-below {
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.22rem;
+    text-align: center;
+    top: -11rem;
+    right: 69.5%;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 0 2rem 2rem;
+    margin-left: 1rem;
+}
 .hero-text p {
-    font-size: 1.3rem;
-    color: #fff;
-    padding: 0.5rem 0 2rem 0;
+    position: absolute;
+        font-size: 1.22rem;
+        font-weight: 600;
+        text-align: center;
+        top: -15rem;
+        right: 67%;
+        color: rgb(0, 0, 0);
+        padding: 0.5rem 0 2rem 2rem;
+        margin-left: 1rem;
 
+}
+.hero-text .show:hover {
+    background-color: #e6ba38;
 }
 
 .hero-text .show {
+    position: absolute;
     text-decoration: none;
     background-color: #fff;
+    top: -4rem;
+        right: 77%;
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;
