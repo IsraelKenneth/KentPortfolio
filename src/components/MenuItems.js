@@ -9,8 +9,8 @@ const MenuItems = [
     },
 
     {
-        title: "Portfolio",
-        url: "/portfolio",
+        title: "Projects",
+        url: "/projects",
         cName: "nav-links",
         icon: "fa-solid fa-circle-info"
     },

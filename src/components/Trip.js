@@ -26,7 +26,7 @@ const Trip = () => {
                 />
                 <TripData
                     img1={Trip3}
-                    heading="Trip in Indonesia"
+                    heading="My orphange Foundation"
                     text="Nulla iaculis mattis dolor sit amet congue. Donec justo neque, dictum sit amet turpis quis, accumsan semper nisl. Fusce porttitor massa scelerisque justo posuere, vitae mollis sapien volutpat. Maecenas consectetur luctus posuere. Vivamus interdum id enim eget pharetra."
                 />
             </div>

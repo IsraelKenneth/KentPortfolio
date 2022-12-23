@@ -11,29 +11,24 @@ const Destination = () => {
     return (
         <div className='destination'>
             <h1>
-                Popular Destinations
+                Projects Samples
             </h1>
-            <p> Tours give you the opportunity to see a lot, within a time frame </p>
+            <p> Working remotely, based in Switzerland, Bern </p>
 
             <DestinationData
                 className1='first-des'
                 className2='des-text'
-                heading="Tall Volcano, Batangas"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, erat eget eleifend lobortis, ipsum metus volutpat nunc, quis ultrices nisi odio hendrerit risus. Ut ut mauris in massa sodales dictum a sed lorem. Fusce varius faucibus massa nec facilisis. Morbi accumsan urna nec mi tempus auctor. Vivamus quis ligula leo. Aliquam molestie efficitur nulla quis facilisis. Mauris accumsan tortor sit amet est aliquet, vel posuere metus accumsan. Nullam varius interdum neque, iaculis condimentum ligula efficitur tempus. Aliquam vehicula tortor efficitur condimentum aliquam. Integer nunc erat, fermentum sed dapibus sit amet, porttitor eget metus. Duis blandit fermentum enim nec mollis."
+                heading="PROFESSIONAL SUMMARY"
+                text="Insightful person who excels at React, Javascript, Python just to mention a few and also an enthusiastic Graphic Artist skilled at creating letterheads, logo, brochures, signage and other business-specific materials. Talent for translating company vision into suite of useful graphics and related designs. Adept at thinking creatively to generate ideas and concepts. Technically-savvy with outstanding relationship building and communication skills.
+                Coming up with designs you'll adore.
+Since I enjoy doing this, I'll make sure you're satisfied with the outcome. We'll work together to achieve our goal."
+
+
                 img1={Mountain1}
                 img2={Mountain2}
 
             />
 
-            <DestinationData
-                className1='first-des-reverse'
-                className2='des-text'
-                heading="Tall Volcano, Batangas"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, erat eget eleifend lobortis, ipsum metus volutpat nunc, quis ultrices nisi odio hendrerit risus. Ut ut mauris in massa sodales dictum a sed lorem. Fusce varius faucibus massa nec facilisis. Morbi accumsan urna nec mi tempus auctor. Vivamus quis ligula leo. Aliquam molestie efficitur nulla quis facilisis. Mauris accumsan tortor sit amet est aliquet, vel posuere metus accumsan. Nullam varius interdum neque, iaculis condimentum ligula efficitur tempus. Aliquam vehicula tortor efficitur condimentum aliquam. Integer nunc erat, fermentum sed dapibus sit amet, porttitor eget metus. Duis blandit fermentum enim nec mollis."
-                img1={Mountain3}
-                img2={Mountain4}
-
-            />
 
 
         </div>
