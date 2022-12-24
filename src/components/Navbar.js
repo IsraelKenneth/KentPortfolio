@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
 
         <nav className="NavbarItems">
-            <h1 className='navbar-logo'> <a href='/'>Trippy</a></h1>
+            <h1 className='navbar-logo'> <a href='/'>Vinci</a></h1>
             <div className='menu-icons' onClick={HandleClick}>
 
                 <i className={isToggled === false ? "fas fa-times" : 'fas fa-bars'}></i>
@@ -45,7 +45,7 @@ const Navbar = () => {
                         </li>
                     )
                 })}
-                <button>Signup</button>
+
             </ul>
         </nav>
     )

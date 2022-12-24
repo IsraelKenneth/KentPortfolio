@@ -5,6 +5,10 @@ import Trip from '../components/Trip'
 import Homeimg from "../assets/43.jpg"
 import figmagMock from "../assets/144.png"
 import figmagMock1 from "../assets/198.png"
+import figmagMock3 from "../assets/25.png"
+import figmagMock4 from "../assets/209.png"
+import Skills from '../components/Skills.js'
+
 
 const Home = () => {
     return (
@@ -13,8 +17,7 @@ const Home = () => {
                 cName="hero" 
                 heroImg={Homeimg}
                 title="Freelance Designer"
-                text="I work with businesses and agencies to translate their ideas into designs."
-                text1="A productive freelance partnership and excellent designs."
+                text="I work with businesses and agencies to translate their ideas into designs. A productive freelance partnership and excellent designs."
                 btnText="Contact Me"
                 url="/"
                 btnClass="show"
@@ -22,6 +25,8 @@ const Home = () => {
             <Destination
 
             />
+
+            <Skills />
 
             <Trip
 
@@ -35,6 +40,18 @@ const Home = () => {
             <Hero
                 cName="hero-down"
                 heroImg={figmagMock1}
+                url="/"
+            />
+
+            <Hero
+                cName="hero-down1"
+                heroImg={figmagMock3}
+                url="/"
+            />
+
+            <Hero
+                cName="hero-down1"
+                heroImg={figmagMock4}
                 url="/"
             />
 

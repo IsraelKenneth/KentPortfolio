@@ -6,8 +6,14 @@
 }
 .hero-down {
     width: 100%;
+        height: 100vh;
+            position: relative;
+        }
+.hero-down1 {
+    width: 100%;
     height: 100vh;
     position: relative;
+    margin-top: 0.7rem;
 }
 .hero-mid {
     width: 100%;
@@ -40,29 +46,19 @@ img {
     font-weight: 800;
     background: rgb(28, 28, 28);
         top: -10rem;
-        left: 69%;
+        left: 64%;
         padding: 0.5rem 0 2rem 2rem;
         margin-right: 1rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.hero-text .text-below {
-    position: absolute;
-    font-weight: 600;
-    font-size: 1.22rem;
-    text-align: center;
-    top: -11rem;
-    right: 69.5%;
-    color: rgb(0, 0, 0);
-    padding: 0.5rem 0 2rem 2rem;
-    margin-left: 1rem;
-}
 .hero-text p {
     position: absolute;
-        font-size: 1.22rem;
-        font-weight: 600;
-        text-align: center;
+    line-height: 2rem;
+        font-weight: 700;
+        font-size: 1.1rem;
+        text-align: start;
         top: -15rem;
         right: 67%;
         color: rgb(0, 0, 0);
@@ -78,8 +74,8 @@ img {
     position: absolute;
     text-decoration: none;
     background-color: #fff;
-    top: -4rem;
-        right: 77%;
+    top: -2rem;
+        right: 80%;
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;
@@ -89,7 +85,7 @@ img {
 
 }
 
-@media screen and (max-width: 601px) {
+/* @media screen and (max-width: 1159px) {
     .hero-text h1 {
         padding: 10px 20px;
         font-size: 2rem;
@@ -97,10 +93,40 @@ img {
 
     .hero-text p {
         font-size: 1.1rem;
-        padding: 0 0 2rem 0;
+        padding: 0 0 2rem 1.3rem;
+        
+        }
+        
+        .hero-text .show {
+            top: 5rem;
+            right: 50%;
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: black;
+        
+        }
+        
+        
+        }
+        
+        @media screen and (max-width: 848px) {
+            .hero-text h1 {
+                padding: 10px 20px;
+                font-size: 2rem;
+            }
+        
+            .hero-text p {
+                font-size: 0.9rem;
+                text-align: start;
+                padding: 0 0 2rem 1.3rem;
     }
 
     .hero-text .show {
+        top: 2rem;
+            right: 74%;
         padding: 1rem 2rem;
         border-radius: 6px;
         font-size: 1rem;
@@ -111,4 +137,73 @@ img {
     }
 
 
+}
+*/ @media screen and (max-width: 1117px) {
+    .hero-text h1 {
+        padding: 10px 20px;
+        font-size: 3rem;
+        right: -3rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+        top: -8rem;
+    }
+
+    .hero-text .show {
+        position: relative;
+        top: 8rem;
+        left: 2.5rem;
+
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .hero-text h1 {
+        padding: 10px 20px;
+        font-size: 2rem;
+        position: absolute;
+        left: 25%;
+        top: -19.4rem;
+    }
+
+    .hero-text p {
+        font-size: 0.85rem;
+        padding: 0 0 2rem 0;
+        top: 1rem;
+    }
+
+    .hero-text .show {
+        position: relative;
+        top: 14rem;
+        left: 2.5rem;
+
+
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .hero-text h1 {
+        padding: 10px 20px;
+        font-size: 2rem;
+        position: absolute;
+        left: 25%;
+        top: -19.4rem;
+    }
+
+    .hero-text p {
+        font-size: 0.85rem;
+        padding: 0 0 2rem 0;
+        top: 1rem;
+    }
+
+    .hero-text .show {
+        position: relative;
+        top: 17rem;
+        left: 2.5rem;
+
+
+    }
 }

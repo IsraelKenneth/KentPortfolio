@@ -1,9 +1,6 @@
 import React from 'react'
-import Mountain1 from "../assets/1.jpg"
-import Mountain2 from "../assets/2.jpg"
-import Mountain3 from "../assets/3.jpg"
-import Mountain4 from "../assets/4.jpg"
-import Mountain5 from "../assets/5.jpg"
+import Mountain1 from "../assets/21.png"
+import Mountain2 from "../assets/1.jpg"
 import DestinationData from './DestinationData'
 import "./DestinationStyles.css"
 
@@ -11,7 +8,7 @@ const Destination = () => {
     return (
         <div className='destination'>
             <h1>
-                Projects Samples
+                Professional Summary
             </h1>
             <p> Working remotely, based in Switzerland, Bern </p>
 
