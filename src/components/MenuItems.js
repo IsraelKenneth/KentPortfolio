@@ -8,19 +8,6 @@ const MenuItems = [
         icon: "fa-solid fa-house-user"
     },
 
-    {
-        title: "Projects",
-        url: "/projects",
-        cName: "nav-links",
-        icon: "fa-solid fa-circle-info"
-    },
-
-    {
-        title: "Services",
-        url: "/services",
-        cName: "nav-links",
-        icon: "fa-solid fa-briefcase"
-    },
 
     {
         title: "Contact",
