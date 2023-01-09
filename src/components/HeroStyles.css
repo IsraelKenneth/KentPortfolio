@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=League+Spartan&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .hero {
+    display: flex;
     width: 100%;
     height: 110vh;
     position: relative;
 }
 .hero-down {
     width: 100%;
-        height: 100vh;
-            position: relative;
+    height: 100vh;
+    position: relative;
         }
 .hero-down1 {
     width: 100%;
@@ -60,7 +61,7 @@ img {
         font-size: 1.1rem;
         text-align: start;
         top: -15rem;
-        right: 67%;
+        right: 3rem;
         color: rgb(0, 0, 0);
         padding: 0.5rem 0 2rem 2rem;
         margin-left: 1rem;

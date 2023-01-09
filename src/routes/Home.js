@@ -8,20 +8,13 @@ import figmagMock1 from "../assets/198.png"
 import figmagMock3 from "../assets/25.png"
 import figmagMock4 from "../assets/209.png"
 import Skills from '../components/Skills.js'
+import Header from '../containers/Header.jsx'
 
 
 const Home = () => {
     return (
         <div>
-            <Hero
-                cName="hero" 
-                heroImg={Homeimg}
-                title="Freelance Designer"
-                text="I work with businesses and agencies to translate their ideas into designs. A productive freelance partnership and excellent designs."
-                btnText="Contact Me"
-                url="/"
-                btnClass="show"
-            />
+<Header />
             <Destination
 
             />
